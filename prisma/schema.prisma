@@ -1,0 +1,127 @@
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+generator client {
+  provider = "prisma-client-js" // <-- เปลี่ยนจุดนี้จาก prisma-client-node เป็น prisma-client-js
+}
+
+model User {
+  id           String   @id @default(cuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  image        String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  notes        Note[]
+  categories   Category[]
+  tags         Tag[]
+  reminders    Reminder[]
+  activityLogs ActivityLog[]
+
+  @@index([email])
+}
+
+model Category {
+  id          String   @id @default(cuid())
+  userId      String
+  name        String
+  description String?
+  color       String   @default("#6366f1")
+  icon        String   @default("Folder")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  user  User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  notes Note[]
+
+  @@unique([userId, name])
+  @@index([userId])
+}
+
+model Tag {
+  id        String   @id @default(cuid())
+  userId    String
+  name      String
+  createdAt DateTime @default(now())
+
+  user  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  notes NoteTag[]
+
+  @@unique([userId, name])
+  @@index([userId])
+}
+
+model Note {
+  id         String   @id @default(cuid())
+  userId     String
+  title      String
+  content    String   @db.Text
+  excerpt    String?  @db.Text
+  color      String   @default("default") // default, blue, purple, green, yellow, orange, red, pink
+  type       String   @default("text") // text, checklist, markdown, programming
+  isPinned   Boolean  @default(false)
+  isFavorite Boolean  @default(false)
+  isArchived Boolean  @default(false)
+  isDeleted  Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  categoryId String?
+  category   Category? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  user       User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  tags      NoteTag[]
+  reminders Reminder[]
+
+  @@index([userId])
+  @@index([userId, isDeleted])
+  @@index([userId, isArchived])
+  @@index([userId, isPinned])
+  @@index([userId, isFavorite])
+  @@index([createdAt])
+  @@index([updatedAt])
+}
+
+model NoteTag {
+  noteId String
+  tagId  String
+
+  note Note @relation(fields: [noteId], references: [id], onDelete: Cascade)
+  tag  Tag  @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([noteId, tagId])
+}
+
+model Reminder {
+  id        String   @id @default(cuid())
+  userId    String
+  noteId    String?
+  title     String
+  remindAt  DateTime
+  completed Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  note Note? @relation(fields: [noteId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([remindAt])
+}
+
+model ActivityLog {
+  id        String   @id @default(cuid())
+  userId    String
+  action    String // CREATED, UPDATED, DELETED, PINNED, FAVORITED, REMINDER_ADDED
+  details   String
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}

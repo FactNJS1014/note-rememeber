@@ -1,0 +1,252 @@
+{
+  "node": {
+    "8931b9262a6ef3eeb853a5efed0730e8d3a33591": {
+      "workers": {
+        "app/(auth)/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/reminders/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/favorites/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/archived/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/categories/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/pinned/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/settings/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/tags/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/calendar/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/trash/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(auth)/login/page": "action-browser",
+        "app/(auth)/register/page": "action-browser",
+        "app/(dashboard)/dashboard/page": "action-browser",
+        "app/(dashboard)/notes/new/page": "action-browser",
+        "app/(dashboard)/reminders/page": "action-browser",
+        "app/(dashboard)/notes/page": "action-browser",
+        "app/(dashboard)/favorites/page": "action-browser",
+        "app/(dashboard)/archived/page": "action-browser",
+        "app/(dashboard)/categories/page": "action-browser",
+        "app/(dashboard)/pinned/page": "action-browser",
+        "app/(dashboard)/settings/page": "action-browser",
+        "app/(dashboard)/tags/page": "action-browser",
+        "app/(dashboard)/notes/[id]/page": "action-browser",
+        "app/(dashboard)/calendar/page": "action-browser",
+        "app/(dashboard)/trash/page": "action-browser",
+        "app/(dashboard)/notes/[id]/edit/page": "action-browser"
+      }
+    },
+    "ca716fb2350eb718abd8492fceedac4365fa5fde": {
+      "workers": {
+        "app/(auth)/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/reminders/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/favorites/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/archived/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/categories/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/pinned/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/settings/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/tags/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/calendar/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/trash/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(auth)/login/page": "action-browser",
+        "app/(auth)/register/page": "action-browser",
+        "app/(dashboard)/dashboard/page": "action-browser",
+        "app/(dashboard)/notes/new/page": "action-browser",
+        "app/(dashboard)/reminders/page": "action-browser",
+        "app/(dashboard)/notes/page": "action-browser",
+        "app/(dashboard)/favorites/page": "action-browser",
+        "app/(dashboard)/archived/page": "action-browser",
+        "app/(dashboard)/categories/page": "action-browser",
+        "app/(dashboard)/pinned/page": "action-browser",
+        "app/(dashboard)/settings/page": "action-browser",
+        "app/(dashboard)/tags/page": "action-browser",
+        "app/(dashboard)/notes/[id]/page": "action-browser",
+        "app/(dashboard)/calendar/page": "action-browser",
+        "app/(dashboard)/trash/page": "action-browser",
+        "app/(dashboard)/notes/[id]/edit/page": "action-browser"
+      }
+    },
+    "d9ce689c64558c81260c837b0d59b62cabdac404": {
+      "workers": {
+        "app/(auth)/login/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(auth)/register/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/reminders/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/favorites/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/archived/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/categories/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/pinned/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/settings/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/tags/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/calendar/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/trash/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(auth)/login/page": "action-browser",
+        "app/(auth)/register/page": "action-browser",
+        "app/(dashboard)/dashboard/page": "action-browser",
+        "app/(dashboard)/notes/new/page": "action-browser",
+        "app/(dashboard)/reminders/page": "action-browser",
+        "app/(dashboard)/notes/page": "action-browser",
+        "app/(dashboard)/favorites/page": "action-browser",
+        "app/(dashboard)/archived/page": "action-browser",
+        "app/(dashboard)/categories/page": "action-browser",
+        "app/(dashboard)/pinned/page": "action-browser",
+        "app/(dashboard)/settings/page": "action-browser",
+        "app/(dashboard)/tags/page": "action-browser",
+        "app/(dashboard)/notes/[id]/page": "action-browser",
+        "app/(dashboard)/calendar/page": "action-browser",
+        "app/(dashboard)/trash/page": "action-browser",
+        "app/(dashboard)/notes/[id]/edit/page": "action-browser"
+      }
+    },
+    "0d58cf2ef4a2af6bb553c58d2ba8d99d5dce40ae": {
+      "workers": {
+        "app/(dashboard)/notes/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/trash/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/notes/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/notes/new/page": "action-browser",
+        "app/(dashboard)/notes/[id]/page": "rsc",
+        "app/(dashboard)/trash/page": "rsc",
+        "app/(dashboard)/notes/[id]/edit/page": "action-browser"
+      }
+    },
+    "327cb4a89ec65568c5622926bd0d295dda124ca2": {
+      "workers": {
+        "app/(dashboard)/notes/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/trash/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/notes/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/notes/new/page": "action-browser",
+        "app/(dashboard)/notes/[id]/page": "rsc",
+        "app/(dashboard)/trash/page": "rsc",
+        "app/(dashboard)/notes/[id]/edit/page": "action-browser"
+      }
+    },
+    "5fe592949087f7529fb9b020d592ef68e20e07ae": {
+      "workers": {
+        "app/(dashboard)/notes/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/trash/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/notes/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/notes/new/page": "action-browser",
+        "app/(dashboard)/notes/[id]/page": "rsc",
+        "app/(dashboard)/trash/page": "rsc",
+        "app/(dashboard)/notes/[id]/edit/page": "action-browser"
+      }
+    },
+    "62bcac6d3cfe48a7416fb6f5f48657960a0405ee": {
+      "workers": {
+        "app/(dashboard)/notes/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/trash/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/notes/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/notes/new/page": "action-browser",
+        "app/(dashboard)/notes/[id]/page": "rsc",
+        "app/(dashboard)/trash/page": "rsc",
+        "app/(dashboard)/notes/[id]/edit/page": "action-browser"
+      }
+    },
+    "98b08c318ebfcd49deba0c1b4a31c478ef0751df": {
+      "workers": {
+        "app/(dashboard)/notes/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/trash/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/notes/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/notes/new/page": "action-browser",
+        "app/(dashboard)/notes/[id]/page": "rsc",
+        "app/(dashboard)/trash/page": "rsc",
+        "app/(dashboard)/notes/[id]/edit/page": "action-browser"
+      }
+    },
+    "b4623f134bdfeaaefdca32c1c4783a286e460a4b": {
+      "workers": {
+        "app/(dashboard)/notes/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/trash/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/notes/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/notes/new/page": "action-browser",
+        "app/(dashboard)/notes/[id]/page": "rsc",
+        "app/(dashboard)/trash/page": "rsc",
+        "app/(dashboard)/notes/[id]/edit/page": "action-browser"
+      }
+    },
+    "d90ae07e62849da8b2eba14990a7dddceee2eec1": {
+      "workers": {
+        "app/(dashboard)/notes/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/trash/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(dashboard)/notes/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/notes/new/page": "action-browser",
+        "app/(dashboard)/notes/[id]/page": "rsc",
+        "app/(dashboard)/trash/page": "rsc",
+        "app/(dashboard)/notes/[id]/edit/page": "action-browser"
+      }
+    },
+    "3c1ba5d5e8cac779d0a6b8c1946efa2f76ba782f": {
+      "workers": {
+        "app/(dashboard)/reminders/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Creminders.ts%22%2C%5B%22toggleReminderCompleteAction%22%2C%22deleteReminderAction%22%2C%22createReminderAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(dashboard)/reminders/page": "rsc"
+      }
+    },
+    "ca2807b4f99257e7a5c2a7e364c76721360a0a8c": {
+      "workers": {
+        "app/(dashboard)/reminders/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Creminders.ts%22%2C%5B%22toggleReminderCompleteAction%22%2C%22deleteReminderAction%22%2C%22createReminderAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(dashboard)/reminders/page": "rsc"
+      }
+    },
+    "e0ff758e54bf65eb11bf866b9a81d04395500ec4": {
+      "workers": {
+        "app/(dashboard)/reminders/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Creminders.ts%22%2C%5B%22toggleReminderCompleteAction%22%2C%22deleteReminderAction%22%2C%22createReminderAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(dashboard)/reminders/page": "rsc"
+      }
+    },
+    "3e2319ca1382a14ecf82b3701e37fdf343f2e51f": {
+      "workers": {
+        "app/(dashboard)/notes/new/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(dashboard)/notes/[id]/edit/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cnotes.ts%22%2C%5B%22togglePinAction%22%2C%22toggleFavoriteAction%22%2C%22softDeleteNoteAction%22%2C%22restoreNoteAction%22%2C%22updateNoteAction%22%2C%22permanentDeleteNoteAction%22%2C%22createNoteAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Ccategories.ts%22%2C%5B%22createCategoryAction%22%5D%5D%2C%5B%22C%3A%5C%5CLearning%20Web%20App%5C%5CNextJS%5C%5Cnote-remember-fullstack%5C%5Csrc%5C%5Cactions%5C%5Cauth.ts%22%2C%5B%22logoutAction%22%2C%22registerAction%22%2C%22loginAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/notes/new/page": "action-browser",
+        "app/(dashboard)/notes/[id]/edit/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "fDSxtOpCjdcqMAxtplD57zF9wJ6NTGN3Jj5KNIlrJAE="
+}
