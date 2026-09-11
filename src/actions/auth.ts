@@ -19,16 +19,13 @@ export async function registerAction(prevState: any, formData: FormData) {
 
     const { name, email, password } = validated.data;
 
-    // ตรวจสอบอีเมลซ้ำ
     const existingUser = await prisma.user.findUnique({ where: { email } });
     if (existingUser) {
       return { error: "Email is already registered. Please sign in." };
     }
 
-    // Hash พาสเวิร์ด
     const passwordHash = await hashPassword(password);
 
-    // บันทึก User ลง Neon PostgreSQL
     const user = await prisma.user.create({
       data: {
         name,
@@ -37,14 +34,12 @@ export async function registerAction(prevState: any, formData: FormData) {
       },
     });
 
-    // สร้าง JWT Token
     const token = await signToken({
       userId: user.id,
       email: user.email,
       name: user.name,
     });
 
-    // ฝัง Cookie
     cookies().set("token", token, {
       httpOnly: true,
       secure: process.env.NODE_ENV === "production",
@@ -59,7 +54,6 @@ export async function registerAction(prevState: any, formData: FormData) {
     return { error: error.message || "Failed to register. Please try again." };
   }
 
-  // เรียก redirect นอกบล็อก try-catch เพื่อป้องกัน NEXT_REDIRECT exception
   if (shouldRedirect) {
     redirect("/dashboard");
   }
@@ -78,19 +72,16 @@ export async function loginAction(prevState: any, formData: FormData) {
 
     const { email, password } = validated.data;
 
-    // ค้นหา User
     const user = await prisma.user.findUnique({ where: { email } });
     if (!user) {
       return { error: "Invalid email or password" };
     }
 
-    // ตรวจสอบ Password
     const isValid = await verifyPassword(password, user.passwordHash);
     if (!isValid) {
       return { error: "Invalid email or password" };
     }
 
-    // ออก JWT Token
     const token = await signToken({
       userId: user.id,
       email: user.email,
@@ -114,4 +105,9 @@ export async function loginAction(prevState: any, formData: FormData) {
   if (shouldRedirect) {
     redirect("/dashboard");
   }
+}
+
+export async function logoutAction() {
+  cookies().delete("token");
+  redirect("/login");
 }
