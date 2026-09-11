@@ -36,11 +36,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(dashboard)/notes/new/page.js"
     ],
-    "/(dashboard)/reminders/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(dashboard)/reminders/page.js"
-    ],
     "/(dashboard)/notes/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
