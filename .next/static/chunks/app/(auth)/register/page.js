@@ -336,7 +336,6 @@ eval(__webpack_require__.ts("\nObject.defineProperty(exports, \"__esModule\", ({
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   loginAction: function() { return /* binding */ loginAction; },
-/* harmony export */   logoutAction: function() { return /* binding */ logoutAction; },
 /* harmony export */   registerAction: function() { return /* binding */ registerAction; }
 /* harmony export */ });
 /* harmony import */ var next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/client/app-call-server */ "(app-pages-browser)/./node_modules/next/dist/client/app-call-server.js");
@@ -349,10 +348,9 @@ function __build_action__(action, args) {
   return (0,next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__.callServer)(action.$$id, args)
 }
 
-/* __next_internal_action_entry_do_not_use__ {"8931b9262a6ef3eeb853a5efed0730e8d3a33591":"logoutAction","ca716fb2350eb718abd8492fceedac4365fa5fde":"registerAction","d9ce689c64558c81260c837b0d59b62cabdac404":"loginAction"} */ var logoutAction = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("8931b9262a6ef3eeb853a5efed0730e8d3a33591");
+/* __next_internal_action_entry_do_not_use__ {"ca716fb2350eb718abd8492fceedac4365fa5fde":"registerAction","d9ce689c64558c81260c837b0d59b62cabdac404":"loginAction"} */ var loginAction = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("d9ce689c64558c81260c837b0d59b62cabdac404");
 
 var registerAction = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("ca716fb2350eb718abd8492fceedac4365fa5fde");
-var loginAction = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("d9ce689c64558c81260c837b0d59b62cabdac404");
 
 
 

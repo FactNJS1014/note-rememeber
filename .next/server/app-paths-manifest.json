@@ -1,7 +1,7 @@
 {
-  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/(dashboard)/notes/[id]/page": "app/(dashboard)/notes/[id]/page.js",
   "/(dashboard)/trash/page": "app/(dashboard)/trash/page.js",
   "/(dashboard)/settings/page": "app/(dashboard)/settings/page.js",
-  "/(dashboard)/notes/[id]/edit/page": "app/(dashboard)/notes/[id]/edit/page.js",
-  "/(dashboard)/notes/[id]/page": "app/(dashboard)/notes/[id]/page.js"
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/(dashboard)/notes/[id]/edit/page": "app/(dashboard)/notes/[id]/edit/page.js"
 }
