@@ -183,7 +183,7 @@ export async function softDeleteNoteAction(noteId: string) {
   revalidatePath("/dashboard");
   revalidatePath("/notes");
   revalidatePath("/trash");
-  return { success: true };
+  // ตัด return { success: true }; ออกเพื่อแก้ Type mismatch
 }
 
 export async function restoreNoteAction(noteId: string) {
@@ -200,7 +200,6 @@ export async function restoreNoteAction(noteId: string) {
 
   revalidatePath("/trash");
   revalidatePath("/notes");
-  return { success: true };
 }
 
 export async function permanentDeleteNoteAction(noteId: string) {
@@ -213,5 +212,4 @@ export async function permanentDeleteNoteAction(noteId: string) {
   await prisma.note.delete({ where: { id: noteId } });
 
   revalidatePath("/trash");
-  return { success: true };
 }

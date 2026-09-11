@@ -1,11 +1,7 @@
 {
-  "/(dashboard)/favorites/page": "app/(dashboard)/favorites/page.js",
-  "/(dashboard)/trash/page": "app/(dashboard)/trash/page.js",
-  "/(dashboard)/calendar/page": "app/(dashboard)/calendar/page.js",
-  "/(dashboard)/archived/page": "app/(dashboard)/archived/page.js",
-  "/(dashboard)/settings/page": "app/(dashboard)/settings/page.js",
-  "/(dashboard)/notes/page": "app/(dashboard)/notes/page.js",
   "/(dashboard)/notes/[id]/page": "app/(dashboard)/notes/[id]/page.js",
+  "/(dashboard)/settings/page": "app/(dashboard)/settings/page.js",
+  "/(dashboard)/trash/page": "app/(dashboard)/trash/page.js",
   "/(dashboard)/notes/[id]/edit/page": "app/(dashboard)/notes/[id]/edit/page.js",
   "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js"
 }

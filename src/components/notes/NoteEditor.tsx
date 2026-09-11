@@ -63,7 +63,7 @@ export function NoteEditor({
     setIsSaving(true);
     const tagsArr = tagsInput
       .split(",")
-      .map((t) => t.trim())
+      .map((t: any) => t.trim())
       .filter(Boolean);
 
     const payload = {

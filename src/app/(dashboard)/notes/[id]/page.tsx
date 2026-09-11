@@ -1,12 +1,30 @@
-import { notFound, redirect } from 'next/navigation';
-import Link from 'next/link';
-import { prisma } from '@/lib/prisma';
-import { requireAuth } from '@/lib/auth';
-import { ArrowLeft, Edit3, Trash2, Pin, Heart, Archive, Clock, Tag, Folder } from 'lucide-react';
-import { formatDate } from '@/lib/utils';
-import { softDeleteNoteAction, toggleFavoriteAction, togglePinAction } from '@/actions/notes';
+import { notFound, redirect } from "next/navigation";
+import Link from "next/link";
+import { prisma } from "@/lib/prisma";
+import { requireAuth } from "@/lib/auth";
+import {
+  ArrowLeft,
+  Edit3,
+  Trash2,
+  Pin,
+  Heart,
+  Archive,
+  Clock,
+  Tag,
+  Folder,
+} from "lucide-react";
+import { formatDate } from "@/lib/utils";
+import {
+  softDeleteNoteAction,
+  toggleFavoriteAction,
+  togglePinAction,
+} from "@/actions/notes";
 
-export default async function NoteDetailPage({ params }: { params: { id: string } }) {
+export default async function NoteDetailPage({
+  params,
+}: {
+  params: { id: string };
+}) {
   const user = await requireAuth();
 
   const note = await prisma.note.findFirst({
@@ -46,7 +64,12 @@ export default async function NoteDetailPage({ params }: { params: { id: string 
             <span>Edit</span>
           </Link>
 
-          <form action={softDeleteNoteAction.bind(null, note.id)}>
+          <form
+            action={async () => {
+              "use server";
+              await softDeleteNoteAction(note.id);
+            }}
+          >
             <button
               type="submit"
               className="p-2 bg-rose-500/10 hover:bg-rose-500/20 text-rose-400 border border-rose-500/20 rounded-xl text-xs"
@@ -60,10 +83,16 @@ export default async function NoteDetailPage({ params }: { params: { id: string 
       {/* Note Main Content */}
       <div className="p-8 bg-slate-900 rounded-3xl border border-slate-800 space-y-6">
         <div className="flex items-start justify-between gap-4">
-          <h1 className="text-3xl font-extrabold text-white tracking-tight">{note.title}</h1>
+          <h1 className="text-3xl font-extrabold text-white tracking-tight">
+            {note.title}
+          </h1>
           <div className="flex items-center gap-2">
-            {note.isPinned && <Pin className="w-5 h-5 text-amber-400 fill-amber-400" />}
-            {note.isFavorite && <Heart className="w-5 h-5 text-rose-400 fill-rose-400" />}
+            {note.isPinned && (
+              <Pin className="w-5 h-5 text-amber-400 fill-amber-400" />
+            )}
+            {note.isFavorite && (
+              <Heart className="w-5 h-5 text-rose-400 fill-rose-400" />
+            )}
           </div>
         </div>
 
@@ -71,7 +100,7 @@ export default async function NoteDetailPage({ params }: { params: { id: string 
         <div className="flex flex-wrap items-center gap-3 text-xs pt-2 border-b border-slate-800/80 pb-4">
           <span className="flex items-center gap-1.5 px-3 py-1 bg-slate-950 border border-slate-800 text-indigo-400 rounded-lg font-medium">
             <Folder className="w-3.5 h-3.5" />
-            <span>{note.category?.name || 'Uncategorized'}</span>
+            <span>{note.category?.name || "Uncategorized"}</span>
           </span>
 
           {note.tags.map((t) => (
@@ -84,7 +113,9 @@ export default async function NoteDetailPage({ params }: { params: { id: string 
             </span>
           ))}
 
-          <span className="text-slate-500 ml-auto">Last updated: {formatDate(note.updatedAt)}</span>
+          <span className="text-slate-500 ml-auto">
+            Last updated: {formatDate(note.updatedAt)}
+          </span>
         </div>
 
         {/* Note Body */}
@@ -101,7 +132,9 @@ export default async function NoteDetailPage({ params }: { params: { id: string 
             </h3>
             <div className="p-4 bg-slate-950 border border-slate-800 rounded-2xl text-xs text-slate-300">
               <p className="font-semibold">{note.reminders[0].title}</p>
-              <p className="text-slate-500 mt-1">{formatDate(note.reminders[0].remindAt)}</p>
+              <p className="text-slate-500 mt-1">
+                {formatDate(note.reminders[0].remindAt)}
+              </p>
             </div>
           </div>
         )}
